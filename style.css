@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+body{
+    background-color: antiquewhite;
+}
+h1{
+    margin: 10px;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family: 'Ubuntu',sans-serif;
+    cursor: pointer;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    color: white;
+    
+}
+nav ul li{
+    padding: 0 12px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+.brand img{
+    width: 44px;
+    padding: 0 8px;
+}
+.bottom{
+    position: sticky;
+    height: 100px;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.icons{
+    margin-top: 15px;
+}
+.icons i{
+    cursor: pointer;
+}
+.container{  
+    max-height: 90vh;
+    overflow-y:scroll ;
+    background-color: black;
+    color: white;
+    font-family: 'Varela Round' , 'sans-serif';
+    display: flex;
+    margin: 15px auto;
+    width: 75%;
+    border-radius: 20px;
+    background-image: url(bggg__1.jpeg);
+}
+
+#myProgressBar{
+    width: 80vw;
+    cursor: pointer;
+}
+
+/* ****************************************** */
+.songitemconatiner{
+    margin: 0;
+}
+.songitem{
+    font-weight: bold;
+    height: 50px;
+    display: flex;
+    background-color: white;
+    width: 80%;
+    color: black;
+    margin: 12px 10px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+}
+.songitem img{
+    width: 40px;
+    margin: 23px;
+    border-radius: 34px;
+}
+.timestamp{
+    margin: 0 23px;
+}
+.songinfo{
+    position: absolute;
+    left: 10vw;
+    font-family: 'Verala Round',sans-serif;
+    display: flex;
+}
+.songinfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+    height: 50px;
+    width: 200px;
+}
+/* .bottom div p{
+    padding: 0px;
+} */
